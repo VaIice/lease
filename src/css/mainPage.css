@@ -1,0 +1,480 @@
+.logo {
+  width: 100%;
+  max-width: 600px;
+  cursor: pointer;
+  padding-top: 5px;
+}
+
+.search-bar {
+  width: 100%;
+  max-width: 600px;
+  height: 4rem;
+  margin: auto;
+  border-radius: 30px;
+  border: 1px solid #3aad6d;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.search-bar:focus-within {
+  box-shadow: 0 3px 3px var(--border);
+}
+
+.input-form {
+  height: 60%;
+  border: none;
+  outline: none;
+  width: 90%;
+  font-size: 1.5rem;
+  margin-top: 0.2rem;
+}
+
+.input-form::placeholder {
+  color: var(--light-gray);
+}
+.map-box {
+  margin-top: 30px;
+  width: 100%;
+  max-width: 600px;
+  border: 1px solid var(--border);
+  aspect-ratio: 1/1;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table-box {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  width: 100%;
+  max-width: 600px;
+  margin-top: 40px;
+}
+
+td {
+  border: 1px solid var(--border);
+  border-collapse: collapse;
+  padding: 15px;
+  border-left: 4px solid var(--main);
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+ul.pagination li {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #dfe1e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+ul.pagination li:hover {
+  background-color: var(--border);
+}
+
+ul.pagination li:first-child {
+  border-radius: 5px 0 0 5px;
+}
+ul.pagination li:last-child {
+  border-radius: 0 5px 5px 0;
+}
+ul.pagination li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+}
+ul.pagination li.active a {
+  color: white;
+}
+ul.pagination li.active {
+  background-color: var(--main);
+}
+ul.pagination li a:hover,
+ul.pagination li a.active {
+  color: black;
+}
+
+.marker {
+  padding: 20px;
+  white-space: nowrap;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.wrap {
+  position: absolute;
+  left: 0;
+  bottom: 40px;
+  width: 288px;
+  height: 132px;
+  margin-left: -144px;
+  text-align: left;
+  overflow: hidden;
+  font-size: 12px;
+  font-family: "Malgun Gothic", dotum, "돋움", sans-serif;
+  line-height: 1.5;
+  cursor: pointer;
+}
+.wrap * {
+  padding: 0;
+  margin: 0;
+}
+.wrap .info {
+  width: 286px;
+  height: 120px;
+  border-radius: 5px;
+  border-bottom: 2px solid #ccc;
+  border-right: 1px solid #ccc;
+  overflow: hidden;
+  background: #fff;
+}
+.wrap .info:nth-child(1) {
+  border: 0;
+  box-shadow: 0 3px 3px var(--border);
+}
+.info .title {
+  padding: 5px 0 0 10px;
+  height: 32px;
+  background: var(--border);
+  border-bottom: 1px solid #ddd;
+  font-size: 1rem;
+  font-weight: bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.info .close {
+  position: absolute;
+  top: 7px;
+  right: 12px;
+  color: #888;
+  width: 15px;
+  height: 15px;
+  background: url("https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/overlay_close.png");
+  background-repeat: none;
+  background-position: center;
+}
+.info .close:hover {
+  cursor: pointer;
+}
+.info .body {
+  position: relative;
+  overflow: hidden;
+}
+.info .desc {
+  position: relative;
+  margin: 13px 0 0 90px;
+  height: 75px;
+}
+.desc .ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 0.9rem;
+}
+.desc .jibun {
+  font-size: 0.8rem;
+  color: #888;
+}
+.desc .tel {
+  font-size: 0.8rem;
+  color: #888;
+}
+
+.info .img {
+  position: absolute;
+  top: 6px;
+  left: 5px;
+  width: 73px;
+  height: 71px;
+  border: 1px solid #ddd;
+  color: #888;
+  overflow: hidden;
+}
+.info:after {
+  content: "";
+  position: absolute;
+  margin-left: -12px;
+  left: 50%;
+  bottom: 0;
+  width: 22px;
+  height: 12px;
+  background: url("https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/vertex_white.png");
+}
+.info .link {
+  color: #5085bb;
+}
+
+.modal-background {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.25);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+.modal-container {
+  width: 100%;
+  max-width: 600px;
+  position: fixed;
+  background-color: white;
+  left: 50%;
+  top: 50%;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+  aspect-ratio: 1/1.5;
+  border: 1px solid var(--border);
+  padding: 20px;
+}
+
+.modal-box {
+  text-align: left;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.modal-box th {
+  font-size: 18px;
+}
+
+.modal-box th,
+.modal-box td {
+  border: 1px solid #cecece;
+  padding-left: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.close-button {
+  margin-top: 20px;
+  padding: 10px 30px 10px 30px;
+  border: 1px solid var(--main);
+  background-color: white;
+  color: var(--main);
+  border-radius: 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.modal-container .title {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.modal-container .map-button {
+  font-size: 20px;
+  padding: 10px 30px 10px 30px;
+  border: 1px solid var(--main);
+  background-color: white;
+  border-radius: 20px;
+  color: var(--main);
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.modal-container .map-button:hover,
+.close-button:hover {
+  box-shadow: 0 3px 3px var(--border);
+  background-color: #f7f7f7;
+}
+
+.start-icon {
+  font-size: 10px;
+  vertical-align: middle;
+}
+
+.address {
+  color: var(--light-gray);
+}
+
+.name {
+  font-size: 1.2rem;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+.table-in-box {
+  display: flex;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.table-in-box:first-child {
+  flex-direction: column;
+}
+
+.see-more-button {
+  border: 1px solid var(--main);
+  background-color: white;
+  color: var(--main);
+  height: 45px;
+  padding: 5px 20px 5px 20px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  box-shadow: 0 3px 3px var(--border);
+}
+
+.see-more-button:hover {
+  background-color: #f7f7f7;
+}
+
+.table-in-box:last-child {
+  align-items: center;
+}
+
+@media (max-width: 1242px) {
+  .search-bar {
+    width: 100%;
+    height: 2.5rem;
+  }
+
+  .input-form {
+    font-size: 0.8rem;
+    margin-top: 0.2rem;
+  }
+
+  .map-box {
+    margin-top: 20px;
+  }
+
+  .address {
+    font-size: 0.8rem;
+  }
+
+  .name {
+    font-size: 0.8rem;
+  }
+
+  .table-in-box {
+    display: flex;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .table-in-box:first-child {
+    flex-direction: column;
+  }
+
+  .see-more-button {
+    border: 1px solid var(--main);
+    height: 35px;
+    padding: 5px 5px 5px 5px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    width: 55px;
+  }
+
+  .wrap {
+    left: 45px;
+    width: 200px;
+  }
+
+  .wrap .info {
+    width: 198px;
+  }
+
+  .info .title {
+    font-size: 0.9rem;
+  }
+
+  .info .close {
+    top: 9px;
+  }
+
+  .desc .ellipsis {
+    font-size: 0.75rem;
+  }
+  .desc .jibun {
+    font-size: 0.6rem;
+    color: #888;
+  }
+  .desc .tel {
+    font-size: 0.6rem;
+    color: #888;
+  }
+
+  .modal-background {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+    top: 0;
+    left: 0;
+    z-index: 9999;
+  }
+
+  .modal-container {
+    width: 90%;
+  }
+
+  .modal-box {
+    height: 80%;
+    text-align: left;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 1px;
+  }
+
+  .modal-box th {
+    font-size: 0.7rem;
+  }
+
+  .close-button {
+    margin-top: 10px;
+    padding: 5px 10px 5px 10px;
+    font-size: 0.8rem;
+  }
+
+  .modal-container .title {
+    font-size: 1rem;
+  }
+
+  .modal-container .map-button {
+    padding: 5px 10px 5px 10px;
+    font-size: 0.8rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .modal-container .map-button:hover,
+  .close-button:hover {
+    box-shadow: 0 3px 3px var(--border);
+    background-color: #f7f7f7;
+  }
+
+  .start-icon {
+    font-size: 10px;
+    vertical-align: middle;
+  }
+
+  td {
+    font-size: 0.7rem;
+  }
+}

@@ -1,0 +1,26 @@
+.container {
+  text-align: center;
+  width: 80%;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin: auto;
+  max-width: 1440px;
+  position: relative;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+:root {
+  --light-gray: #c5c0be;
+  --border: #e3e3e3;
+  --main: #3aad6d;
+  --header: rgb(229, 229, 229);
+}
+
+@media (max-width: 1242px) {
+  .container {
+    width: 100%;
+  }
+}
