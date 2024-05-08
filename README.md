@@ -25,7 +25,7 @@
 
 ---
 #### 사업소 정보 - 지도
-![](https://github.com/VaIice/mbti/assets/141003473/c95dd864-b056-44fa-8237-f0340a4a2e12)
+![](https://github.com/VaIice/lease/assets/141003473/b2e7f357-239b-4b7d-9d90-c1ad35433151)
 
 ---
 #### 사업소 정보 - 모달창
