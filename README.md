@@ -24,8 +24,8 @@
 ![](https://github.com/VaIice/lease/assets/141003473/8cb6a2ad-6c02-4e40-ba04-03ef5f4f42f1)
 
 ---
-#### 테스트 화면
-![](https://github.com/VaIice/mbti/assets/141003473/1ce9f944-a588-4d66-8a11-2f14be83e3e2)
+#### 모달창
+![](https://github.com/VaIice/lease/assets/141003473/cf303503-7dac-4e6d-b6ef-598a0aa3a6f6)
 
 ---
 #### 결과 화면
