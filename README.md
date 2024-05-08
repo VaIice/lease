@@ -41,7 +41,7 @@
 
 ---
 #### 카카오 지도 길찾기
-![](https://github.com/VaIice/mbti/assets/141003473/87b0432d-026f-4864-a3c9-6d1115a6605c)
+![](https://github.com/VaIice/lease/assets/141003473/23c58673-f1cc-44cf-a789-e544c21bb010)
 
 ----
 🛠️ **Tools and Technologies :** <br><br>
