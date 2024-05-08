@@ -33,7 +33,7 @@
 
 ---
 #### 페이지 이동
-![](https://github.com/VaIice/mbti/assets/141003473/e608d97a-ce5f-4865-a8d0-0c1a214fb27f)
+![](https://github.com/VaIice/lease/assets/141003473/e7d2d5eb-0808-4c54-86bb-ef71d7c95ca5)
 
 ---
 #### 검색
