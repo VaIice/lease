@@ -21,7 +21,7 @@
 ----
 ## 웹 페이지 화면
 #### 메인 화면
-![](https://github.com/VaIice/mbti/assets/141003473/f0a63a19-b6b5-468b-bb71-fe5dc2940a91)
+![](https://github.com/VaIice/lease/assets/141003473/8cb6a2ad-6c02-4e40-ba04-03ef5f4f42f1)
 
 ---
 #### 테스트 화면
