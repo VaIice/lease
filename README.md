@@ -37,7 +37,7 @@
 
 ---
 #### 검색
-![](https://github.com/VaIice/mbti/assets/141003473/f817c7b0-1d04-4eb4-9e0a-3a377a216712)
+![](https://github.com/VaIice/lease/assets/141003473/364e9743-3456-41c6-a0df-07e1d5722b65)
 
 ---
 #### 카카오 지도 길찾기
