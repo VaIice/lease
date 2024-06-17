@@ -1,5 +1,5 @@
 ## 📝 농기계 임대 사업소
-##### React, Redux toolkit을 활용한 농기계 임대 사업소 검색 웹 사이트
+##### React + Redux toolkit을 활용한 농기계 임대 사업소 검색 웹 사이트
 
 ----
 
