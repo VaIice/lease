@@ -1,13 +1,8 @@
 ## 📝 농기계 임대 사업소
 ##### React + Redux toolkit을 활용한 농기계 임대 사업소 검색 사이트
-
 ----
 
-## 🌏 주소
-##### <https://vaiice.github.io/lease>
-
-----
-## 🛠️ Tools and Technologies <br><br>
+## 🛠️ Tools and Technologies
 ![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white&style=for-the-badge)
 ![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?&style=for-the-badge&logo=javascript&logoColor=black)
@@ -15,6 +10,11 @@
 ![Redux Toolkit](https://img.shields.io/badge/Redux_Toolkit-%23834383.svg?style=for-the-badge&logo=redux&logoColor=white)
 ![Figma](https://img.shields.io/badge/-Figma-F24E1E?logo=Figma&logoColor=white&style=for-the-badge)
 ![Kakao API](https://img.shields.io/badge/Kakao_API-%23FFEB00.svg?style=for-the-badge&logo=kakao&logoColor=black)
+
+----
+
+## 🌏 주소
+##### <https://vaiice.github.io/lease>
 
 ----
 
