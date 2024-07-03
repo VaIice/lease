@@ -9,7 +9,7 @@
 ![React](https://img.shields.io/badge/React-%2361DAFB.svg?&style=for-the-badge&logo=react&logoColor=white)
 ![Redux Toolkit](https://img.shields.io/badge/Redux_Toolkit-%23834383.svg?style=for-the-badge&logo=redux&logoColor=white)
 ![Figma](https://img.shields.io/badge/-Figma-F24E1E?logo=Figma&logoColor=white&style=for-the-badge)
-![Kakao API](https://img.shields.io/badge/Kakao_API-%23FFEB00.svg?style=for-the-badge&logo=kakao&logoColor=black)
+![Kakao Maps API](https://img.shields.io/badge/Kakao_API-%23FFEB00.svg?style=for-the-badge&logo=kakao&logoColor=black)
 
 ----
 
